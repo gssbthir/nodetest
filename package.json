@@ -1,0 +1,17 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Node App for Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balakumar Thirunavukarasu - Platform Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.17.1",
+    "seriate": "^0.8.0"
+  }
+}
