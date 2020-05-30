@@ -3,7 +3,7 @@ const app = express();
 app.use(express.static('public')); /* this line tells Express to use the public folder as our static folder from which we can serve static files*/
 
 
-app.listen(3000, function(){
+app.listen(process.env.NODE_ENV, function(){
   console.log("Listening on port 3000!")
 });
 
