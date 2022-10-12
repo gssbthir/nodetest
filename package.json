@@ -14,6 +14,6 @@
     "body-parser": "*",
     "cors": "*",
     "express": "^4.17.1",
-    "seriate": "^0.8.0"
+    "seriate": "^4.0.2"
   }
 }
